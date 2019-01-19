@@ -70,7 +70,7 @@ client.on('ready',async () => {
   try {
     const config = {
       name: "VIP 4", // اسم الرتبة
-      guildid: "442079753273606145", // اي دي السيرفر
+      guildid: "502793545841901579", // اي دي السيرفر
       sec: 0.0001 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
