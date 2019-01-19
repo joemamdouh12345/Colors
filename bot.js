@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '-' ; 
+const prefix = '$' ; 
 
 
 client.on('ready', () => {
@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 //////////////////////////////////////////////////
 client.on('message', msg => {
-  if (msg.content === '.') {
+  if (msg.content === '..') {
     msg.reply('جعل ماينقط غيرك :kissing_heart: ');
   }
 });
@@ -19,7 +19,7 @@ client.on('message', msg => {
 
 
 client.on('ready', () => {
-var x = client.channels.get("502797689474383872");
+var x = client.channels.get("502793546370252808");
 if (x) x.join();
 });
 
