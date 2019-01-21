@@ -71,7 +71,7 @@ client.on('ready',async () => {
     const config = {
       name: "VIP 4", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.0001 // عدد الثواني
+      sec: 0.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -99,7 +99,7 @@ client.on('ready',async () => {
     const config = {
       name: "VIP", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.0001 // عدد الثواني
+      sec: 0.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -128,7 +128,7 @@ client.on('ready',async () => {
     const config = {
       name: "VIP 1", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.0001 // عدد الثواني
+      sec: 0.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -157,7 +157,7 @@ client.on('ready',async () => {
     const config = {
       name: "VIP 2", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.0001 // عدد الثواني
+      sec: 0.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -186,7 +186,7 @@ client.on('ready',async () => {
     const config = {
       name: "VIP 3", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.0001 // عدد الثواني
+      sec: 0.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -215,7 +215,7 @@ client.on('ready',async () => {
     const config = {
       name: "VIP 4", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.0001 // عدد الثواني
+      sec: 0.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -244,7 +244,7 @@ client.on('ready',async () => {
     const config = {
       name: "VIP 5", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.0001 // عدد الثواني
+      sec: 0.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -273,7 +273,7 @@ client.on('ready',async () => {
     const config = {
       name: "VIP 6", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.0001 // عدد الثواني
+      sec: 0.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -302,7 +302,7 @@ client.on('ready',async () => {
     const config = {
       name: "VIP 7", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.0001 // عدد الثواني
+      sec: 0.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -331,7 +331,7 @@ client.on('ready',async () => {
     const config = {
       name: "VIP 8", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.0001 // عدد الثواني
+      sec: 0.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -360,7 +360,7 @@ client.on('ready',async () => {
     const config = {
       name: "VIP 9", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.0001 // عدد الثواني
+      sec: 0.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -389,7 +389,7 @@ client.on('ready',async () => {
     const config = {
       name: "VIP 0", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.0001 // عدد الثواني
+      sec: 0.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -421,7 +421,7 @@ client.on('ready',async () => {
     const config = {
       name: "BOT MUSIC", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.00001 // عدد الثواني
+      sec: 0.01 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -452,7 +452,7 @@ client.on('ready',async () => {
     const config = {
       name: "BOT", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.00001 // عدد الثواني
+      sec: 0.02 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
