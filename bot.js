@@ -421,7 +421,7 @@ client.on('ready',async () => {
     const config = {
       name: "BOT MUSIC", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.01 // عدد الثواني
+      sec: 0.06 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -452,7 +452,7 @@ client.on('ready',async () => {
     const config = {
       name: "BOT", // اسم الرتبة
       guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.02 // عدد الثواني
+      sec: 0.05 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
