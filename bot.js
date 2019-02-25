@@ -479,7 +479,7 @@ client.on('ready',async () => {
  
   client.on('message', msg => {//msg
     if (msg.content === `الالوان`) {
-      msg.channel.send({file : "https://cdn.discordapp.com/attachments/502797280332480512/537407353658671114/colors.png"})
+      msg.channel.send({file : "https://cdn.pg.sa/Dui4gU7May.png"})
     }
   });;
 
@@ -488,7 +488,7 @@ client.on('ready',async () => {
 
   client.on('message', msg => {//msg
     if (msg.content === `الوان`) {
-      msg.channel.send({file : "https://cdn.discordapp.com/attachments/502797280332480512/537407353658671114/colors.png"})
+      msg.channel.send({file : "https://cdn.pg.sa/Dui4gU7May.png"})
     }
   });;
 
